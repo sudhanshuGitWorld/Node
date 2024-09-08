@@ -8,7 +8,7 @@ https.get('https://dummyjson.com/products/1', (res) => {
 
 setTimeout(() => {
     console.log('timer is out')
-}, 5000);
+}, 1000);
 
 fs.readFile('file.txt', 'utf-8', (err, data) => {
     console.log('file data...', data);
